@@ -2,6 +2,7 @@
   "name": "react-switch-btn",
   "version": "1.0.0",
   "description": "This is a React Switch Button Component.",
+  "repository": "https://github.com/qiaolevip/react-switch-btn.git",
   "main": "srcipts/index.jsx",
   "scripts": {
     "start": "webpack-dev-server --progress",
