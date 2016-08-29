@@ -1,0 +1,45 @@
+/*! Copyright qiaole@vip.qq.com@Joe. */
+.switch-btn {
+  position: relative;
+  width: 65px;
+  -webkit-user-select: none;
+}
+.switch-btn .switch-checkbox {
+  display: none;
+}
+.switch-btn .switch-checkbox:checked + .switch-label {
+  background-color: #00bc8d;
+}
+.switch-btn .switch-checkbox:checked + .switch-label:before {
+  right: 0;
+}
+.switch-btn .switch-checkbox:checked + .switch-label,
+.switch-btn .switch-checkbox:checked + .switch-label:before {
+  border-color: #00bc8d;
+}
+.switch-btn .switch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  height: 34px;
+  padding: 0;
+  line-height: 36px;
+  border: 2px solid #e5e5e5;
+  border-radius: 34px;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in;
+}
+.switch-btn .switch-label:before {
+  content: "";
+  display: block;
+  width: 30px;
+  margin: 0;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 30px;
+  border: 2px solid #e5e5e5;
+  border-radius: 34px;
+  transition: all 0.3s ease-in 0s;
+}
